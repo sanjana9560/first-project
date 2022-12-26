@@ -1,0 +1,35 @@
+body{
+    background-image: url("71098862.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.menu a{
+    text-decoration: underline;
+    color: black;
+    padding: 10px 20px;
+    position: relative;
+    font-size: large;
+}
+.menu a:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-top: 2px solid black;
+    transition: 0.4s linear;
+
+}
+.menu a:hover:befor{
+    width: 100%;
+
+}
+.text{
+    text-align:center;
+    margin-top: 10%;
+    font-size: 3em;
+    margin: right 12em;
+    /* text-decortation; */
+}
